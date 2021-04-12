@@ -1,0 +1,171 @@
+.mediaViewInfo {
+	--web-view-name: iPhone 6, 7, 8 Plus – 1;
+	--web-view-id: iPhone_6_7_8_Plus__1;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: iPhone_6_7_8_Plus__1;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#iPhone_6_7_8_Plus__1 {
+	position: absolute;
+	width: 414px;
+	height: 736px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: iPhone 6, 7, 8 Plus – 1;
+	--web-view-id: iPhone_6_7_8_Plus__1;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+}
+#scufflebg {
+	position: absolute;
+	width: 1598px;
+	height: 736px;
+	left: -511px;
+	top: 0px;
+	overflow: visible;
+}
+#SCUFFLE {
+	left: 43px;
+	top: 188px;
+	position: absolute;
+	overflow: visible;
+	width: 329px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Beleren2016;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 87px;
+	color: rgba(255,255,255,1);
+}
+#Updated_three_days_ago {
+	left: 106px;
+	top: 301px;
+	position: absolute;
+	overflow: visible;
+	width: 203px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+}
+#Untitled-1 {
+	opacity: 0.52;
+	position: absolute;
+	width: 64px;
+	height: 64px;
+	left: 187px;
+	top: 278px;
+	overflow: visible;
+}
+#Rectangle_6 {
+	fill: rgba(255,255,255,0.541);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_6 {
+	position: absolute;
+	overflow: visible;
+	width: 284px;
+	height: 51px;
+	left: 77px;
+	top: 407px;
+}
+#Player_Code {
+	left: 106px;
+	top: 417px;
+	position: absolute;
+	overflow: visible;
+	width: 135px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+}
+#Group_2 {
+	position: absolute;
+	width: 284px;
+	height: 86px;
+	left: 77px;
+	top: 502px;
+	overflow: visible;
+}
+#Path_1 {
+	fill: rgba(0,45,135,1);
+}
+.Path_1 {
+	overflow: visible;
+	position: absolute;
+	width: 276px;
+	height: 77px;
+	left: 8px;
+	top: 9px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Rectangle_4 {
+	fill: rgba(0,45,135,1);
+}
+.Rectangle_4 {
+	width: 12.31px;
+	height: 12px;
+	position: absolute;
+	overflow: visible;
+	transform: translate(-822px, -561px) matrix(1,0,0,1,1089.4605,567.5946) rotate(55deg);
+	transform-origin: center;
+}
+#Rectangle_5 {
+	fill: rgba(0,45,135,1);
+}
+.Rectangle_5 {
+	width: 12.31px;
+	height: 12px;
+	position: absolute;
+	overflow: visible;
+	transform: translate(-822px, -561px) matrix(1,0,0,1,827.3994,629.4336) rotate(42deg);
+	transform-origin: center;
+}
+#Rectangle_2 {
+	fill: rgba(0,85,255,1);
+}
+.Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 276px;
+	height: 77px;
+	left: 0px;
+	top: 0px;
+}
+#Make_Me_Brave {
+	left: 18px;
+	top: 22px;
+	position: absolute;
+	overflow: visible;
+	width: 241px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Beleren2016;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	color: rgba(255,255,255,0.91);
+}

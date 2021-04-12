@@ -1,0 +1,263 @@
+/* ////////// ROOT ////////////////////////////////////////////////////////// */
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	font-style: italic;
+  color: white;
+	opacity: 0.66;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	font-style: italic;
+  color: white;
+	opacity: 0.66;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+	font-style: italic;
+  color: white;
+	opacity: 0.66;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: rgb(255, 255, 255, 0.5);
+	border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 255, 255, 1);
+}
+
+body::-webkit-scrollbar-track {
+	display: none;
+}
+
+.mediaViewInfo {
+	--web-view-name: Web 1920 – 2;
+	--web-view-id: Web_1920__2;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+}
+
+:root {
+	--web-view-ids: Web_1920__2;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ////////// BODY + BASICS ///////////////////////////////////////////////// */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+
+body {
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: #647382;
+	overflow-y: overlay;
+	margin-bottom: 50px;
+
+	--web-view-name: Web 1920 – 2;
+	--web-view-id: Web_1920__2;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-enable-deep-linking: true;
+}
+
+/* ////////// UNIVERSAL OBJECTS ///////////////////////////////////////////// */
+
+.Header {
+	overflow: visible;
+	white-space: nowrap;
+
+	font-family: Beleren2016;
+	text-align: center;
+	font-style: normal;
+	font-weight: bold;
+	color: #fff;
+}
+
+.Header.Index {
+	margin-top: 21vh;
+	font-size: 115px;
+}
+
+.Header.Session {
+	/* max-width: 90%; */
+	top: 4%;
+	/* margin-left: -193px; */
+	font-size: 55px;
+}
+
+/* ////////// INDEX OBJECTS ///////////////////////////////////////////////// */
+
+.Update_Line {
+	position: absolute;
+	text-align: center;
+	margin-top: 3px;
+	overflow: visible;
+
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 19px;
+	color: #fff;
+}
+
+.Set_Symbol {
+	opacity: 0.5;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 50%;
+	margin-left: -25px;
+	top: 39.6%;
+	overflow: visible;
+}
+
+/* ////////// SESSION OBJECTS /////////////////////////////////////////////// */
+
+#PName_Submit {
+	position: absolute;
+	overflow: visible;
+	left: 50%;
+	margin-left: 160px;
+	top: 85.5%;
+}
+
+#PName_Submit #quill {
+	position: absolute;
+	padding: 8px 0 0 8px;
+	width: 43px;
+}
+
+#cards {
+	display: flex;
+	flex-direction: column;
+}
+
+.Card_Image {
+	position: absolute;
+	overflow: visible;
+	top: 18%;
+
+	width: 18%;
+	height: 60%;
+
+	background-size: cover;
+}
+
+/* ////////// TABLES AND TABLE CONTAINERS /////////////////////////////////// */
+
+.Player_List {
+	position: absolute;
+	top: 100%;
+	width: 100%;
+}
+
+table {
+	position: relative;
+	width: 64%;
+	left: 50%;
+	margin-left: -32%;
+	margin-bottom: 2%;
+}
+
+td {
+	border-color: #000;
+	border-width: 1px;
+
+	border-radius: 12px;
+	background-color: rgba(255, 255, 255, 0.5);
+
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: #000;
+	padding: 14px 16px 14px 16px;
+}
+
+/* ////////// FORMS ///////////////////////////////////////////////////////// */
+
+input[type=text] {
+  width: 200px;
+	height: 50px;
+	margin: 6.5vh 40vw 0 40vw;
+
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	color: #fff;
+	padding-left: 16px;
+
+  display: inline-block;
+	background-color: rgba(0, 0, 0, 0.5);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+
+input[type=text].PName {
+	width: 295px;
+	margin-left: -148px;
+	top: 85.5%;
+}
+
+input[type=text]:focus {
+  outline: none;
+}
+
+input[type=submit] {
+	overflow: visible;
+}
+
+input[type=submit].PCode {
+	width: 284px;
+	height: 86px;
+	margin-top: 6vh;
+
+	overflow: visible;
+	background: url("wide_button.svg") no-repeat scroll 0 0 transparent;
+	background-size: cover;
+	text-align: center;
+	font-family: Beleren2016;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	color: #fff;
+}
+
+input[type=submit].PName {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+
+	display: inline-block;
+	background-color: rgba(39, 87, 255);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+	border-radius: 12px;
+	box-sizing: border-box;
+}
