@@ -103,12 +103,10 @@ body {
 
 .Update_Line {
 	position: absolute;
-	text-align: center;
-	margin-top: 3px;
+	top: 21vh;
 	overflow: visible;
 
 	white-space: nowrap;
-	text-align: center;
 	font-family: Segoe UI;
 	font-style: normal;
 	font-weight: bold;
