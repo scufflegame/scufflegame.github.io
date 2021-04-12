@@ -64,6 +64,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-color: #647382;
+	background-size: cover;
 	overflow-y: overlay;
 	margin-bottom: 50px;
 
