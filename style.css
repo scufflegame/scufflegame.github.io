@@ -63,26 +63,17 @@ html {
 	border: none;
 }
 
-body {
-	/* background-repeat: no-repeat;
-	background-position: center top;
-	background-color: #647382;
-	background-size: cover;
-
-	margin-bottom: 50px;
-
-	--web-view-name: Web 1920 – 2;
-	--web-view-id: Web_1920__2;
-	--web-scale-on-resize: true;
-	--web-center-horizontally: true;
-	--web-enable-deep-linking: true; */
-}
-
 /* ////////// UNIVERSAL OBJECTS ///////////////////////////////////////////// */
 
 .Header {
-	overflow: visible;
-	white-space: nowrap;
+	position: absolute;
+	left:0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
+
+	/* overflow: visible;
+	white-space: nowrap; */
 
 	font-family: Beleren2016;
 	text-align: center;
@@ -92,14 +83,12 @@ body {
 }
 
 .Header.Index {
-	margin-top: 21vh;
+	top: 21vh;
 	font-size: 115px;
 }
 
 .Header.Session {
-	/* max-width: 90%; */
-	top: 4%;
-	/* margin-left: -193px; */
+	top: 4vh;
 	font-size: 55px;
 }
 
@@ -107,8 +96,12 @@ body {
 
 .Update_Line {
 	position: absolute;
-	top: 21vh;
-	overflow: visible;
+	left:0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
+
+	top: 41vh;
 
 	white-space: nowrap;
 	font-family: Segoe UI;
@@ -119,8 +112,14 @@ body {
 }
 
 .Set_Symbol {
-	opacity: 0.5;
 	position: absolute;
+	left:0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
+
+	opacity: 0.5;
+
 	width: 50px;
 	height: 50px;
 	left: 50%;
@@ -146,19 +145,45 @@ body {
 }
 
 #cards {
+	position: absolute;
+	left:0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
+
+	top: 18vh;
+	width: 80vw;
+	height: 60vh;
+
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch
 }
 
 .Card_Image {
-	position: absolute;
-	overflow: visible;
-	top: 18%;
+	/* position: absolute; */
+	flex: 1;
 
-	width: 18%;
-	height: 60%;
+	/* max-width: 18vw; */
+	/* min-width: 18vw; */
 
-	background-size: cover;
+	margin-left: 10px;
+	margin-right: 10px;
+
+
+	/* overflow: visible; */
+
+	/* top: 18%; */
+
+	/* width: 18%;
+	height: 60%; */
+
+	/* background-color: #fff; */
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
 }
 
 /* ////////// TABLES AND TABLE CONTAINERS /////////////////////////////////// */
@@ -196,9 +221,14 @@ td {
 /* ////////// FORMS ///////////////////////////////////////////////////////// */
 
 input[type=text] {
-  width: 200px;
+	position: absolute;
+	left:0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
+
 	height: 50px;
-	margin: 6.5vh 40vw 0 40vw;
+	/* margin: 6.5vh 40vw 0 40vw; */
 
 	font-family: Segoe UI;
 	font-style: normal;
@@ -218,29 +248,38 @@ input[type=text] {
   box-sizing: border-box;
 }
 
-input[type=text].PName {
-	width: 295px;
-	margin-left: -148px;
-	top: 85.5%;
-}
-
 input[type=text]:focus {
   outline: none;
 }
 
+input[type=text].PCode {
+	top: 51vh;
+	width: 200px;
+}
+
+input[type=text].PName {
+	font-size: 22px;
+	top: 85.51vh;
+	width: 295px;
+}
+
 input[type=submit] {
-	overflow: visible;
+	position: absolute;
 }
 
 input[type=submit].PCode {
+	left:0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
+
+	top: 63.5vh;
 	width: 284px;
 	height: 86px;
-	margin-top: 6vh;
 
-	overflow: visible;
 	background: url("assets/wide_button.svg") no-repeat scroll 0 0 transparent;
 	background-size: cover;
-	text-align: center;
+
 	font-family: Beleren2016;
 	font-style: normal;
 	font-weight: bold;
@@ -249,7 +288,6 @@ input[type=submit].PCode {
 }
 
 input[type=submit].PName {
-	position: absolute;
 	width: 50px;
 	height: 50px;
 
