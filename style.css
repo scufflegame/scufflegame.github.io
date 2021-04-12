@@ -49,6 +49,9 @@ body::-webkit-scrollbar-track {
 
 html {
   scroll-behavior: smooth;
+	background-size: cover;
+	min-height: 100%;
+	background-position: center;
 }
 
 /* ////////// BODY + BASICS ///////////////////////////////////////////////// */
@@ -61,7 +64,7 @@ html {
 }
 
 body {
-	background-repeat: no-repeat;
+	/* background-repeat: no-repeat;
 	background-position: center top;
 	background-color: #647382;
 	background-size: cover;
@@ -72,7 +75,7 @@ body {
 	--web-view-id: Web_1920__2;
 	--web-scale-on-resize: true;
 	--web-center-horizontally: true;
-	--web-enable-deep-linking: true;
+	--web-enable-deep-linking: true; */
 }
 
 /* ////////// UNIVERSAL OBJECTS ///////////////////////////////////////////// */
