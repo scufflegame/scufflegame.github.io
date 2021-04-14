@@ -38,9 +38,9 @@
     <a class="Card_Image" href="https://www.scryfall.com" style="background-image: url('assets/cardback.png');" target="_blank"></a>
   </div>
 
-  <form id="PName_Form" action="#Player_List">
+  <form id="PName_Form">
     <input type="text" class="PName" name="playername" maxlength="20" autocomplete="off" placeholder="Name Yourself, Stranger" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Name Yourself, Stranger'">
-     <input type="submit" class="PName" value=" ">
+     <input type="submit" class="PName" value="" onClick="changeName(this.form)">
   </form>
 
   <div id="Player_List">
