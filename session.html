@@ -15,37 +15,35 @@
   <title>Scuffle - Game</title>
 
   <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="style.css" />
-  <script id="applicationScript" type="text/javascript" src="Scuffle Website.js"></script>
-
+  <script id="applicationScript" type="text/javascript" src="js/animation.js"></script>
+  <!-- <script id="applicationScript" type="text/javascript" src="Scuffle Website.js"></script> -->
+  <link rel="icon" href="assets/favicon.png">
   <!-- <link rel="stylesheet" href="lib/animate/animate.min.css"> -->
 </head>
 
 <body style="overflow-y: overlay;">
 
   <div class="Header Session">
-    <!-- <span>Be Brave</span> -->
-    <!-- <span>We're All Soldiers, Now</span> -->
     <span>Scuffle Round 3</span>
   </div>
 
-  <!-- <div id="cards">
-    <a class="Card_Image" href="https://www.scryfall.com" style="background-image: url('assets/cardback.png'); left: 18%" target="_blank"></a>
-    <a class="Card_Image" href="https://www.scryfall.com" style="background-image: url('assets/cardback.png'); left: 64%" target="_blank"></a>
-    <a class="Card_Image" href="https://www.scryfall.com" style="background-image: url('assets/cardback.png'); left: 41%" target="_blank"></a>
-  </div> -->
+  <div class="Subheader">
+    <span><i>We're All Soldiers, Now</i></span>
+  </div>
+
   <div id="cards">
-    <div class="Card_Image" href="https://www.scryfall.com" style="background-image: url('assets/cardback.png');" target="_blank"></div>
-    <div class="Card_Image" href="https://www.scryfall.com" style="background-image: url('assets/cardback.png');" target="_blank"></div>
-    <div class="Card_Image" href="https://www.scryfall.com" style="background-image: url('assets/cardback.png');" target="_blank"></div>
+    <a class="Card_Image" href="https://www.scryfall.com" style="background-image: url('assets/cardback.png');" target="_blank"></a>
+    <a class="Card_Image" href="https://www.scryfall.com" style="background-image: url('assets/cardback.png');" target="_blank"></a>
+    <a class="Card_Image" href="https://www.scryfall.com" style="background-image: url('assets/cardback.png');" target="_blank"></a>
   </div>
 
   <form action="/action-page.php">
     <input type="text" class="PName" name="playername" maxlength="20" autocomplete="off" placeholder="Name Yourself, Stranger" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Name Yourself, Stranger'">
-    <div id=PName_Submit>
-
+     <input type="submit" class="PName" value=" ">
+    <!-- <div id=PName_Submit>
       <input type="submit" class="PName" value=" ">
       <img src="assets/quill.svg" id="quill">
-    </div>
+    </div> -->
   </form>
 
   <div class="Player_List">
