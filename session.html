@@ -15,6 +15,7 @@
   <title>Scuffle - Game</title>
 
   <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="style.css" />
+  <script id="data" type="text/javascript" src="js/data.json"></script>
   <script id="applicationScript" type="text/javascript" src="js/animation.js"></script>
   <!-- <script id="applicationScript" type="text/javascript" src="Scuffle Website.js"></script> -->
   <link rel="icon" href="assets/favicon.png">
@@ -28,7 +29,7 @@
   </div>
 
   <div class="Subheader">
-    <span><i>We're All Soldiers, Now</i></span>
+    <span><i>We're All Soldiers Now</i></span>
   </div>
 
   <div id="cards">
@@ -37,74 +38,70 @@
     <a class="Card_Image" href="https://www.scryfall.com" style="background-image: url('assets/cardback.png');" target="_blank"></a>
   </div>
 
-  <form action="/action-page.php">
+  <form id="PName_Form" action="#Player_List">
     <input type="text" class="PName" name="playername" maxlength="20" autocomplete="off" placeholder="Name Yourself, Stranger" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Name Yourself, Stranger'">
      <input type="submit" class="PName" value=" ">
-    <!-- <div id=PName_Submit>
-      <input type="submit" class="PName" value=" ">
-      <img src="assets/quill.svg" id="quill">
-    </div> -->
   </form>
 
-  <div class="Player_List">
+  <div id="Player_List">
     <table>
       <tr>
         <td class="Left_Border">Wwwwwww Wwwwwww</td>
-        <td style="min-width: 14vw;">
+        <td>
           a
-          <div class="Preview_Card">
-          </div>
+          <a class="Preview_Card"></a>
         </td>
-        <td style="min-width: 14vw;">
+        <td>
           b
-          <div class="Preview_Card">
-          </div>
+          <a class="Preview_Card"></a>
         </td>
-        <td class="Right_Border" style="min-width: 14vw;">
+        <td class="Right_Border">
           c
-          <div class="Preview_Card">
-          </div>
+          <a class="Preview_Card"></a>
         </td>
       </tr>
       <tr>
         <td class="Left_Border">Wwwwwww Wwwwwww</td>
         <td style="min-width: 14vw;">
           a
-          <div class="Preview_Card">
-          </div>
+          <a class="Preview_Card"></a>
         </td>
         <td style="min-width: 14vw;">
           b
-          <div class="Preview_Card">
-          </div>
+          <a class="Preview_Card"></a>
         </td>
         <td class="Right_Border" style="min-width: 14vw;">
           c
-          <div class="Preview_Card">
-          </div>
+          <a class="Preview_Card"></a>
         </td>
       </tr>
       <tr>
         <td class="Left_Border">Wwwwwww Wwwwwww</td>
         <td style="min-width: 14vw;">
           a
-          <div class="Preview_Card">
-          </div>
+          <a class="Preview_Card"></a>
         </td>
         <td style="min-width: 14vw;">
           b
-          <div class="Preview_Card">
-          </div>
+          <a class="Preview_Card"></a>
         </td>
         <td class="Right_Border" style="min-width: 14vw;">
           c
-          <div class="Preview_Card">
-          </div>
+          <a class="Preview_Card" href="https://scryfall.com"></a>
         </td>
       </tr>
     </table>
   </div>
 
+  <input type='button' onclick='tableFromJson()' value='Create Table from JSON data' />
+  <p id="showData"></p>
+
 </body>
+
+<script>
+function myFunction() {
+  document.getElementById("PName_Form").submit();
+}
+</script>
 
 </html>

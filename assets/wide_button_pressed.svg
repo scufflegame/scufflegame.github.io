@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="289.32318mm"
+   height="89.810699mm"
+   viewBox="0 0 289.32318 89.810699"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="wide_button_pressed.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="533.60692"
+     inkscape:cy="60.891311"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer2"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-5.6807742,-20.189299)"
+     style="display:none">
+    <path
+       style="fill:#002d87;stroke-width:1.43082"
+       d="m 89.607706,415.74804 c -13.252995,0 -19.197875,-5.18238 -31.016405,-16.98296 L 30.94643,365.74638 1069.8937,89.015616 l 37.2057,48.671434 c 5.5357,6.96428 8.0982,15.20325 7.8612,32.39169 v 177.6378 c -0.1819,45.09418 -21.8447,67.90567 -69.5191,67.31721 z"
+       id="path19"
+       transform="scale(0.26458333)"
+       sodipodi:nodetypes="ccccccccc" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     style="display:inline"
+     transform="translate(-5.6807742,-20.189299)">
+    <rect
+       style="fill:#0055ff;stroke-width:0.264999"
+       id="rect10"
+       width="280"
+       height="80"
+       x="15.680774"
+       y="30.189299"
+       onmouseover="fill: #fff"
+       rx="10"
+       ry="10" />
+  </g>
+</svg>
