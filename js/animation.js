@@ -1,9 +1,18 @@
 function changeName(input) {
-  var nameValue = input.playername.value
+  // var nameValue = input.playername.value
+  var fs = require('fs');
+
+  var nameValue = input;
   alert("you typed: " + nameValue);
   myObj = {code: "ABCD1234", name: nameValue};
   myJSON = JSON.stringify(myObj);
-  localStorage.setItem("testJSON", myJSON);
+  // localStorage.setItem("testJSON", myJSON);
+  fs.writeFile ("data.json", myJSON, function(err) {
+    // if (err) throw err;
+    if (err) alert("err: " + err);
+    console.log('complete');
+    }
+  );
 }
 
 function tableFromJson() {
