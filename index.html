@@ -1,40 +1,46 @@
 <!DOCTYPE html>
-<html style="background-image: url('assets/indexbg.png'); background-color: #647382;">
+<html style="background-image: url('assets/indexbg.png'); background-color: #647382;" lang="en">
 
-<head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0 viewport-fit=cover">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 viewport-fit=cover">
 
-	<title>Scuffle</title>
+        <title>Scuffle</title>
 
-	<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="style.css" />
-	<!-- <script id="applicationScript" type="text/javascript" src="Scuffle Website.js"></script> -->
-	<link rel="icon" href="assets/favicon.png">
-</head>
+        <link rel="stylesheet" type="text/css" id="applicationStylesheet" href="style.css"/>
+        <link rel="icon" href="assets/favicon.png">
+    </head>
 
 
-<body>
-	<div style="text-align: center;">
+    <body>
+        <div style="text-align: center;">
 
-		<div class="Header Index">
-			<span>SCUFFLE</span>
-		</div>
+            <div class="Header Index">
+                <span>SCUFFLE</span>
+            </div>
 
-		<div class="Update_Line">
-			<span>Updated three days ago</span>
-		</div>
-		<img class="Set_Symbol" src="assets/Set_Symbol.png">
+            <div class="Update_Line">
+                <span>Updated three days ago</span>
+                <img class="Set_Symbol" src="assets/Set_Symbol.png" alt="">
+            </div>
 
-		<form action="session.html">
-			<!-- <form action="/new" method="post"> -->
+<!--            <img class="Set_Symbol" src="assets/Set_Symbol.png" alt="">-->
 
-			<input type="text" class="PCode" name="playercode" maxlength="8" autocomplete="off" placeholder="Player Code" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Player Code'">
+            <form action="session.html">
+                <!-- <form action="/new" method="post"> -->
 
-			<input type="submit" value="Make Me Brave" class="PCode"></input>
-		</form>
+                <label>
+                    <input type="text" class="PCode" name="playercode" maxlength="8" autocomplete="off"
+                           placeholder="Player Code" onfocus="this.placeholder = ''"
+                           onblur="this.placeholder = 'Player Code'">
+                </label>
 
-	</div>
-</body>
+<!--             <input type="submit" value="Make Me Brave" class="PCode">-->
+                <button class="button-19" type="submit">Make Me Brave</button>
+            </form>
+
+        </div>
+    </body>
 
 </html>
