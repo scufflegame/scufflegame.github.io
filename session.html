@@ -24,85 +24,85 @@
 
 <body style="overflow-y: overlay;">
 
-<div class="Header Session">
-    <span>Scuffle Round 3</span>
-</div>
+    <div class="Header Session">
+        <span>Scuffle Round 3</span>
+    </div>
 
-<div class="Subheader">
-    <span><i>We're All Soldiers Now</i></span>
-</div>
+    <div class="Subheader">
+        <span><i>We're All Soldiers Now</i></span>
+    </div>
 
-<div id="cards">
-    <a class="Card_Image" href="https://www.scryfall.com" style="background-image: url('assets/cardback.png');"
-       target="_blank"></a>
-    <a class="Card_Image" href="https://www.scryfall.com" style="background-image: url('assets/cardback.png');"
-       target="_blank"></a>
-    <a class="Card_Image" href="https://www.scryfall.com" style="background-image: url('assets/cardback.png');"
-       target="_blank"></a>
-</div>
+    <div id="cards">
+        <a class="Card_Image" href="https://www.scryfall.com" style="background-image: url('assets/cardback.png');"
+           target="_blank"></a>
+        <a class="Card_Image" href="https://www.scryfall.com" style="background-image: url('assets/cardback.png');"
+           target="_blank"></a>
+        <a class="Card_Image" href="https://www.scryfall.com" style="background-image: url('assets/cardback.png');"
+           target="_blank"></a>
+    </div>
 
-<form id="PName_Form">
-    <label>
-        <input type="text" class="PName" name="playername" maxlength="20" autocomplete="off"
-               placeholder="Name Yourself, Stranger" onfocus="this.placeholder = ''"
-               onblur="this.placeholder = 'Name Yourself, Stranger'">
-    </label>
-    <input type="submit" class="PName" value="" onClick="changeName(this.form)">
-</form>
+    <form id="PName_Form">
+        <label>
+            <input type="text" class="PName" name="playername" maxlength="20" autocomplete="off"
+                   placeholder="Name Yourself, Stranger" onfocus="this.placeholder = ''"
+                   onblur="this.placeholder = 'Name Yourself, Stranger'">
+        </label>
+        <input type="submit" class="PName" value="" onClick="changeName(this.form)">
+    </form>
 
-<div id="Player_List">
-    <table>
-        <tr>
-            <td class="Left_Border">Wwwwwww Wwwwwww</td>
-            <td>
-                a
-                <a class="Preview_Card"></a>
-            </td>
-            <td>
-                b
-                <a class="Preview_Card"></a>
-            </td>
-            <td class="Right_Border">
-                c
-                <a class="Preview_Card"></a>
-            </td>
-        </tr>
-        <tr>
-            <td class="Left_Border">Wwwwwww Wwwwwww</td>
-            <td style="min-width: 14vw;">
-                a
-                <a class="Preview_Card"></a>
-            </td>
-            <td style="min-width: 14vw;">
-                b
-                <a class="Preview_Card"></a>
-            </td>
-            <td class="Right_Border" style="min-width: 14vw;">
-                c
-                <a class="Preview_Card"></a>
-            </td>
-        </tr>
-        <tr>
-            <td class="Left_Border">Wwwwwww Wwwwwww</td>
-            <td style="min-width: 14vw;">
-                a
-                <a class="Preview_Card"></a>
-            </td>
-            <td style="min-width: 14vw;">
-                b
-                <a class="Preview_Card"></a>
-            </td>
-            <td class="Right_Border" style="min-width: 14vw;">
-                c
-                <a class="Preview_Card" href="https://scryfall.com"></a>
-            </td>
-        </tr>
-    </table>
-</div>
+    <div id="Player_List">
+        <table>
+            <tr>
+                <td class="Left_Border">Wwwwwww Wwwwwww</td>
+                <td>
+                    a
+                    <a class="Preview_Card"></a>
+                </td>
+                <td>
+                    b
+                    <a class="Preview_Card"></a>
+                </td>
+                <td class="Right_Border">
+                    c
+                    <a class="Preview_Card"></a>
+                </td>
+            </tr>
+            <tr>
+                <td class="Left_Border">Wwwwwww Wwwwwww</td>
+                <td style="min-width: 14vw;">
+                    a
+                    <a class="Preview_Card"></a>
+                </td>
+                <td style="min-width: 14vw;">
+                    b
+                    <a class="Preview_Card"></a>
+                </td>
+                <td class="Right_Border" style="min-width: 14vw;">
+                    c
+                    <a class="Preview_Card"></a>
+                </td>
+            </tr>
+            <tr>
+                <td class="Left_Border">Wwwwwww Wwwwwww</td>
+                <td style="min-width: 14vw;">
+                    a
+                    <a class="Preview_Card"></a>
+                </td>
+                <td style="min-width: 14vw;">
+                    b
+                    <a class="Preview_Card"></a>
+                </td>
+                <td class="Right_Border" style="min-width: 14vw;">
+                    c
+                    <a class="Preview_Card" href="https://scryfall.com"></a>
+                </td>
+            </tr>
+        </table>
+    </div>
 
-<input type='button' onclick='tableFromJson()' value='Create Table from JSON data'/>
-<input type='button' onclick='changeName("abc")' value='Create Table from JSON data'/>
-<p id="showData"></p>
+    <input type='button' onclick='tableFromJson()' value='Create Table from JSON data'/>
+    <input type='button' onclick='changeName("abc")' value='Create Table from JSON data'/>
+    <p id="showData"></p>
 
 </body>
 
